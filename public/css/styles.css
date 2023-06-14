@@ -1,0 +1,41 @@
+body {
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+footer{
+    color: #888;
+    border-top: 1px solid #eee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+header {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    color: grey;
+    margin-bottom: 64px;
+}
+
+header a {
+    margin-right: 16px;
+    color: #888;
+    text-decoration: none;
+}
+.portarit {
+    width:250px;
+}
